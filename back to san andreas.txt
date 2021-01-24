@@ -1,0 +1,8 @@
+Back to San Andreas
+
+hey did you know cJ waS parT of thE Grove street ?
+
+Using "jsteg reveal 'back to san andreas.jpeg' out.txt" and cat "out.txt" we can find following link https://ibb.co/3s8d1bv in this link we can find flag.
+
+inctfj{gr0ve_5treet_f0r_l1fe} 
+

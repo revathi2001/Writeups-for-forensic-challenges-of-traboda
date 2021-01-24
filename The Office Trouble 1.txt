@@ -1,0 +1,9 @@
+The Office Trouble I
+
+Challenge Description
+
+Dwight has taken Jim's client folder and encrypted it ! Get those clients back !
+
+Using "fcrackzip -v -u -D -p rockyou.txt av_b62152ea-cc85-43ab-8af1-f39915814327.zip" we get password for zip file as perfectlypunk using we can open jpg image in zip file in which we can find flag.
+
+inctfj{dw1ght_1s_cr4zy_bu7_awes0me}

@@ -1,0 +1,8 @@
+Security 101
+Challenge Description
+
+Nerd : Some people keep their username as password. Why would they do that ? Me : Hmm ...
+
+Using "unzip av_833f4961-7736-4b0b-b8b4-c958e54ad930.zip" we can unzip the given zip file there we can find my_secure_file.zip and my_inspiration.jpg.Here we don't know the password for my_secure_file.zip so using "exiftool my_inspiration.jpg" we get creator as "R3DDIT_US3R".This is password for image in my_secure_file.zip and we can find flag in the image.
+
+inctfj{1ts_4ll_f1ne_tru5t_m3}

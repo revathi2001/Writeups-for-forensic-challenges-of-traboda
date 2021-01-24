@@ -1,0 +1,9 @@
+Jay-chot
+
+Raju sent me this file and told me that it's an important file for him, but he couldn't open it. Can you help me in retrieving this file?
+
+Flag Format: flag{some_l33t_string}
+
+Firstly when we open the image we get "Error interpreting JPEG image file (Not a JPEG file: starts with 0xff 0xd9)". Since the error is due to header using ghex tool I changed the hex signature to "FF D8 FF E0 00 10 4A 46 49 46 00 01" and when we open image now we get flag.
+
+flag{a4aa04741a8d3a952a7ec88457991b97}

@@ -1,0 +1,11 @@
+Detailed View
+
+Sam, thinks there is more to know about this file. Can you help him know more about this file?
+
+Flag format: flag{some_l33t_string}
+
+After when we download file and use "exiftool filename" we can find the following link:
+https://pastebin.com/KudUCfTC .In this link we can find the message "ZmxhZ3tNMTVzSTBOX2FDYzBNUEwxNWgzRH0=". Using hash decoder we can get flag.
+https://hashes.com/en/decrypt/hash
+
+flag{M15sI0N_aCc0MPL15h3D}

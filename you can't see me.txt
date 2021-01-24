@@ -1,0 +1,15 @@
+You can't see me
+
+We have received an image but seems like somebody has messed up with the data. Can you help us?
+
+Using the tool pngcheck we can find errors in the file.Using ghex we can fix the following chunks as given hexdecimal values.
+
+IHDR - 49 48 44 52
+IDAT - 49 44 41 54
+IEND - 49 45 4E 44
+gAMA - 67 41 4D 41 
+
+Resources used:
+https://www.w3.org/TR/2003/REC-PNG-20031110/#11IHDR
+
+inctfj{WH4t_ar3_pNgCHUnkS?}

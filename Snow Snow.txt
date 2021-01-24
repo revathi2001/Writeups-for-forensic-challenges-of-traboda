@@ -1,0 +1,43 @@
+Snow Snow
+
+Ravi thinks there is something suspicious between these lines of this file. Can you help him find out what is suspicious?
+
+Flag Format: flag{some_l33t_string}
+
+Using "stegsnow -C "snow snow.txt"" we get ntio{eP1B35x4K3_aB3O0_q5_K00t}.We can download stegsnow using "sudo apt install stegsnow".Using the following code we can get flag.
+
+def decrypt(line,l):
+        arr=list(line)
+        new_arr1=[]
+        new_arr2=[]
+        for i in range(len(line)):
+                p=arr[i]
+                if (arr[i]>='a' and arr[i]<='z') or (arr[i]>='A' and arr[i]<='Z'):
+                        if (arr[i]>='a' and arr[i]<='z'):
+                                if (ord(p)-97)>=l:
+                                        new_arr1.append(ord(p)-l)  
+                                else:
+                                        x=ord(p)-97
+                                        y=122-(l-x)+1
+                                        new_arr1.append(y)
+                        else:
+                                if (ord(p)-65)>=l:
+                                        new_arr1.append(ord(p)-l)  
+                                else:
+                                        x=ord(p)-65
+                                        y=90-(l-x)+1
+                                        new_arr1.append(y)
+                else:
+                        new_arr1.append(ord(p))
+        for i in new_arr1:
+                new_arr2.append(chr(i))
+        s=''.join(new_arr2)
+        return s
+
+line="ntio{eP1B35x4K3_aB3O0_q5_K00t}"
+length=len(line)
+for i in range(0,26):
+	print(decrypt(line,i))
+
+
+flag{wH1T35p4C3_sT3G0_i5_C00l}
